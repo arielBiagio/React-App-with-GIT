@@ -37,7 +37,7 @@ body{
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7em;
+  line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
 }
 
@@ -120,7 +120,6 @@ img {
     margin-top: 6rem;
   }
 }
-
 
 /*---------------Media Queries (Small devices)-----------------*/
 @media screen and (max-width: 600px){
