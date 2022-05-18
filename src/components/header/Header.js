@@ -14,7 +14,7 @@ function Header() {
         <Cta />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={ME} alt="me" className="header__img" />
         </div>
 
         <a href="#contact" className="scroll__down">
