@@ -4,7 +4,7 @@ header{
     overflow: hidden;
 }
 
-.header__container {
+.container.header__container {
     text-align: center;
     height: 100%;
     position: relative;
@@ -70,7 +70,7 @@ header{
 /*---------------Media Queries (Medium devices)-----------------*/
 @media screen and (max-width: 1024px){
     header{
-        height: 86vh;
+        height: 100vh;
     }
   }
   
