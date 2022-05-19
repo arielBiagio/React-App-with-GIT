@@ -31,6 +31,9 @@ header{
     left: 0rem;
     bottom: 3rem;
 }
+.header__socials a:hover {
+    transform: scale(1.2);
+}
 
 .header__socials::after{
     content: '';
