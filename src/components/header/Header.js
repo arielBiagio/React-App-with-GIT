@@ -3,6 +3,7 @@ import "./header.css";
 import Cta from "./Cta";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import ScrollDownButton from "./ScrollDownButton";
 
 function Header() {
   return (
@@ -17,9 +18,12 @@ function Header() {
           <img src={ME} alt="me" className="header__img" />
         </div>
 
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <div className="scroll__group">
+          <ScrollDownButton />
+          <a href="#contact" className="scroll__down">
+            Scroll Down
+          </a>
+        </div>
       </div>
     </header>
   );
