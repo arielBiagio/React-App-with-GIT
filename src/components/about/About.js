@@ -4,6 +4,7 @@ import me from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import HeaderSocials from "../header/HeaderSocials";
 
 function About() {
   return (
@@ -43,6 +44,7 @@ function About() {
             qui velit magni ea cum eos fugit est architecto aut molestiae non
             quidem distinctio repudiandae, odio soluta! Facere, atque delectus.
           </p>
+          <HeaderSocials style={"about__socials"} />
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk

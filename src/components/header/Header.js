@@ -13,7 +13,7 @@ function Header() {
         <h1>Ariel Biagio</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <Cta />
-        <HeaderSocials />
+        <HeaderSocials style={"header__socials"} />
         <div className="me">
           <img src={ME} alt="me" className="header__img" />
         </div>

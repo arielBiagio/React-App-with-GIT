@@ -3,9 +3,9 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FiDribbble } from "react-icons/fi";
 
-function HeaderSocials() {
+function HeaderSocials({ style }) {
   return (
-    <div className="header__socials">
+    <div className={style}>
       <a
         href="https://www.linkedin.com/in/ariel-biagio-a81286a7/"
         rel="noopener noreferrer"

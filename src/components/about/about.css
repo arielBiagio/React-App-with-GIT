@@ -64,6 +64,15 @@
     color: var(--color-light);
 }
 
+.about__socials{
+    display: flex;
+    gap: 1em;
+    margin: 1.5em 0;
+
+    font-size: 2em;
+
+}
+
 /*---------------Media Queries (Medium devices)-----------------*/
 @media screen and (max-width: 1024px){
    .about__container {
