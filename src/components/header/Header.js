@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import Cta from "./Cta";
-import ME from "../../assets/me.png";
+import ME from "../../assets/yo.PNG";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDownButton from "./ScrollDownButton";
 

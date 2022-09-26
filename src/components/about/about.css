@@ -1,3 +1,8 @@
+#about {
+    background-color: #6D597A;
+    padding-block: 2em;
+}
+
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
